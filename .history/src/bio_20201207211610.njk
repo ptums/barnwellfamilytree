@@ -1,0 +1,23 @@
+---
+layout: base.njk
+pagination:
+  data: members
+  size: 1
+  alias: members
+permalink: "/{{ members.slug }}/bio.html"
+title: {{ members.name }}
+description: "This is a biography and details on {{ members.name }}, who is a member of the Barnwell family tree."
+
+---
+
+<article>
+  <header>
+    <h1 class="text-center font-bold text-3xl">{{ members.name }}</h1>
+    <div class="text-center text-sm mb-8">
+      {{ members.life }}
+    </div>
+  </header>
+  <div class="max-w-screen-lg mx-auto">
+    Person's bio will go here...
+  </div>
+</article>

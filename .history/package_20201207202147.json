@@ -1,0 +1,16 @@
+{
+  "name": "barnwellfamilytreessg",
+  "version": "1.0.0",
+  "description": "family tree website",
+  "main": "src/index.njk",
+  "author": "peter tumulty",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm-run-all build:css build:html",
+    "build:css": "postcss src/css/tailwind.css -o src/css/styles.css",
+    "build:html": "eleventy",
+    "watch": "npm-run-all --parallel watch:css watch:html",
+    "watch:css": "postcss src/css/tailwind.css -o src/css/styles.css --watch",
+    "watch:html": "eleventy --serve"
+  },
+}

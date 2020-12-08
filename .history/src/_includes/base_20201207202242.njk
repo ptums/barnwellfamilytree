@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="/css/styles.css">
+     <title>{{ title }}</title>
+         <meta
+      name="description"
+      content="{{ description }}"
+    />
+  </head>
+  <body>
+
+    <div class="max-w-screen-md mx-auto text-center pt-2">
+      <header>
+        <a href="/" class="px-4">
+          Home
+        </a>
+        <a href="/about" class="px-4">
+          About
+        </a>
+        <a href="/messages" class="px-4">
+          Messages
+        </a>                      
+      </header>
+      <div>
+        {{ content | safe }}
+      </div>
+    </div>
+  </body>
+</html>

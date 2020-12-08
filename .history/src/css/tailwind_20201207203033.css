@@ -1,0 +1,90 @@
+@tailwind base;
+
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply underline;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content {
+  @apply tracking-wider leading-8 text-xl;
+}
+
+.content p, .content ul {
+  @apply my-5;
+}
+
+.content h1 {
+  @apply text-5xl font-bold leading-10;
+}
+
+.content h2 {
+  @apply text-4xl font-bold;
+}
+
+.content h3 {
+  @apply text-3xl font-bold;
+}
+
+.content h4 {
+  @apply text-2xl font-bold;
+}
+
+.content h5 {
+  @apply text-xl font-bold;
+}
+
+.content h6 {
+  @apply text-lg font-bold;
+}
+
+.content ul,
+.content ol,
+.content p {
+  @apply overflow-auto;
+}
+
+.content > div > ul,
+.content > div > ol {
+  @apply my-6;
+}
+
+.content ul,
+.content ol {
+  @apply pl-8;
+}
+
+.content ul {
+  @apply list-outside list-disc;
+}
+
+.content ol {
+  @apply list-outside list-decimal;
+}
+
+.content pre[class*='language-'] {
+  @apply my-8;
+}
+
+.content table {
+  @apply whitespace-no-wrap my-8 border-collapse block overflow-auto;
+}
+
+.content th,
+.content td {
+  @apply border px-8 py-4;
+}
+
+.content th {
+  @apply bg-gray-100;
+}
+
+.comment-title {
+  @apply my-5 text-2xl font-bold;
+}

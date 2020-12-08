@@ -1,0 +1,8 @@
+{
+  "name": "barnwellfamilytreessg",
+  "version": "1.0.0",
+  "description": "family tree website",
+  "main": "index.js",
+  "author": "peter tumulty",
+  "license": "MIT"
+}
