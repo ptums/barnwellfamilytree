@@ -1,17 +1,22 @@
 require('dotenv').config()
-const { MongoClient } = require('mongodb');
+const MongoClient = require('mongodb').MongoClient;
 
 exports.handler = async function() {
-  const client = new MongoClient(process.env.MONGODB_URI);
   try {
-    await client.connect();
+    const connection = await MongoClient.connect(process.env.MONGODB_URI,  {
+      useNewUrlParser: true,
+      useUnifiedTopology: true
+    });
+    const db = connection.db(process.env.DB_NAME)
+    const members = await db.collection('members')
+    const response = await members.find({}).toArray()
     
     return {
       statusCode: 200,
       body: JSON.stringify({
-        data: 'An array of of barnwells will go here...',
-        msg: "Here are the members of the family tree",
-        status: 200
+        data: response,
+        satus: 200,
+        msg: "Here are the members of the family tree"
       })
     }
   } catch(err) {
@@ -20,7 +25,5 @@ exports.handler = async function() {
       statusCode: 500,
       body: JSON.stringify({err: 'Something went wrong!'})
     }
-  } finally {
-    await client.close();
-}
+  } 
 }
