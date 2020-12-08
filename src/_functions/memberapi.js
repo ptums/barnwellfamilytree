@@ -2,7 +2,7 @@ require('dotenv').config()
 const { MongoClient } = require('mongodb');
 
 exports.handler = async function() {
-  const client = new MongoClient(uri);
+  const client = new MongoClient(process.env.MONGODB_URI);
   try {
     await client.connect();
     
