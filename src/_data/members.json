@@ -3,51 +3,70 @@
         "name": "Sally Edith Barnwell",
         "slug": "sally-e-barnwell",
         "life": "June 30, 1917 - June 20, 1988",
+        "profileImage": "/v1607429745/barnwellfamilytree/sally-barnwell/SallyEBarnwell_hkaxfa.jpg",
+        "born": "June 30, 1917 in New Brunswick, Middlesex County, New Jersey",
+        "death": "June 20, 1988 in Anderson Indiana (Buried in only Catholic cemetery in Anderson Indiana)",
+        "family": [
+            "Husband: Albert J. Young (Married: 1940, 23 years old).",
+            "Children: Jean Marie, John Joseph, William Joseph, Albert Joseph JR , Mary Joe."
+        ],
+        "workHistory": [
+            "Bookkeeper for a furniture company in Geneva, New York."
+        ],
+        "education": [
+            "St. Peter's High School"
+        ],
+        "category": "children",
         "comments": [
             {
-                "name": "Person 1",
-                "comment": "First comment"
+                "name": "Mary Jo Hales",
+                "email": "",
+                "comment": "Died in Anderson Indiana. Buried in only Catholic cemetery in Anderson Indiana"
             },
             {
-                "name": "Person 2",
-                "comment": "Second comment"
+                "name": "Mary Jo Hales",
+                "email": "",
+                "comment": "Children Jean Marie, John Joseph, William Joseph, Albert Joseph JR, Mary Jo"
+            },
+            {
+                "name": "Mary Jo Hales",
+                "email": "",
+                "comment": "Work Bookkeeper for a furniture company in Geneva, New York."
+            }
+        ],
+        "galleryPhotos": [
+            {
+                "url": "/v1607429745/barnwellfamilytree/sally-barnwell/SallyEBarnwell_hkaxfa.jpg",
+                "alt": "Sally Barnwell wedding"
             }
         ]
     },
     {
-        "name": "John Joseph Barnwell, Jr.",
+        "name": "John Joseph Barnwell, jr.",
         "slug": "john-j-barnwell-jr",
         "life": "December 2, 1919 - September 7, 1964",
-        "comments": []
-    },
-    {
-        "name": "Thomas Francis Barnwell",
-        "slug": "thomas-f-barnwell",
-        "life": "March 22, 1922 - August 2, 1996",
-        "comments": []
-    },
-    {
-        "name": "Mary Jean Barnwell",
-        "slug": "mary-j-barnwell",
-        "life": "July 23, 1925 - July 15, 1994",
-        "comments": []
-    },
-    {
-        "name": "Ann Mary Barnwell",
-        "slug": "ann-m-barnwell",
-        "life": "August 29, 1929 - April 12, 2013",
-        "comments": []
-    },
-    {
-        "name": "Helen Regina Barnwell",
-        "slug": "helen-r-barnwell",
-        "life": "August 15, 1932 - December 6, 2018",
-        "comments": []
-    },
-    {
-        "name": "Edwin Herbert Barnwell",
-        "slug": "edwin-h-barnwell",
-        "life": "October 3, 1937 - Still kickin it",
-        "comments": []
+        "profileImage": "/v1607433261/barnwellfamilytree/john-barnwell-jr/johnjjosephbarnwelljr_djfmfe.jpg",
+        "born": "December 2, 1919 in Highland Park, Middlesex County, New Jersey",
+        "death": "September 7, 1964 in Greenville, Montcalm, Michigan",
+        "family": [
+            "Wife: Marjorie Anne Smith (Married: 1944, 25 years old)",
+            "Children: Roman Joseph (1949 - 2003), Margie Barnwell, Edwin Barnwell, Beth Barnwell, Jane Barnwell, John Barnwell"
+        ],
+        "workHistory": [
+            "Army WWII",
+            "Scientist"
+        ],
+        "education": [
+            "St. Peter's High School",
+            "Rutgers University"
+        ],
+        "category": "children",
+        "comments": [],
+        "galleryPhotos": [
+            {
+                "url": "/v1607429745/barnwellfamilytree/sally-barnwell/SallyEBarnwell_hkaxfa.jpg",
+                "alt": "John Barnwell WWII"
+            }
+        ]
     }
 ]

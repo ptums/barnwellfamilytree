@@ -19,58 +19,91 @@ eleventyComputed:
     </div>
   </header>
   <div class="mt-10 max-w-screen-md mx-auto">
-    Person's bio will go here...
-    <h3>Photo Gallery</h3>
+    <div>
+      <img src="https://res.cloudinary.com/tumulty-web-services/image/upload/{{members.profileImage}}" alt="{{members.name}}" />
+    </div>
+    <h4 class="text-2xl font-bold mb-2 mt-6">Born</h4>
+    <p>{{ members.born }}</p>
+    <h4 class="text-2xl font-bold mb-2 mt-6">Death</h4>
+    <p>{{ members.death }}</p>    
+    {% if  members.family.length > 0 %}
+        <h4 class="text-2xl font-bold mb-2 mt-6">Family</h4>
+          <ul class="list-disc ml-6">
+          {% asyncEach m in members.family %}
+            <li class="mb-2">{{ m }}</li>
+          {% endeach %}
+          </ul>
+    {% endif %}
+        {% if  members.workHistory.length > 0 %}
+         <h4 class="text-2xl font-bold mb-2 mt-6">Work History</h4>
+          <ul class="list-disc ml-6">
+          {% asyncEach w in members.workHistory %}
+            <li class="mb-2">{{ w }}</li>
+          {% endeach %}
+          </ul>
+    {% endif %} 
+        {% if  members.education.length > 0 %}
+        <h4 class="text-2xl font-bold mb-2 mt-6">Education</h4>
+          <ul class="list-disc ml-6">
+          {% asyncEach e in members.education %}
+            <li class="mb-2">{{ e }}</li>
+          {% endeach %}
+          </ul>
+    {% endif %}  
+    <h4 class="text-2xl font-bold mb-2 mt-6">Photo Gallery</h4>
     <a href="/{{members.slug}}/gallery.html">{{members.name}}'s Photo Gallery</a>
   </div>
 </article>
-<section class="mt-10 max-w-screen-md mx-auto">
-    <h4 class="comment-title">Comments</h4>
-    {% if(members.comments.length > 0) {
-      members.comments.forEach(function(comment){ %}
-       <div class="border-2 border-indigo-200 p-3 w-11/12 py-5 mb-5 rounded shadow-md">
+
+{% if  members.comments.length > 0 %}
+  <section class="mt-10 max-w-screen-md mx-auto">
+    <h4 class="text-2xl font-bold mb-2 mt-6">Comments</h4>
+    {% asyncEach comment in members.comments %}
+        <div class="border-2 border-indigo-200 p-3 w-11/12 py-5 mb-5 rounded shadow-md">
           <p class="font-bold leading-relaxed">{{comment.name}}</p>
           <p class="text-base">{{comment.comment}}</p>
         </div> 
-    {% });} %}
-  </section>  
-  <section class="mt-10 max-w-screen-md mx-auto">
-    <h4 class="text-2xl font-bold my-2">Make a comment</h4>
-    <p class="text-gray-900 text-base mb-2">Feel free to add details about this persons life. The data on this website is always growing  📈</p>
-      <form netlify name="comments-queue" action="/thanks">
-        <input name="path" type="hidden" value="<%= page.url %>">
-        <p>
-          <label for="name" class="sr-only">Your name</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            class="border-2 border-indigo-200 p-1 rounded mb-3 w-11/12"
-            placeholder="Your name"  
-          >
-        </p>
-        <p>
-          <label for="email" class="sr-only">Your email</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Your email"
-            class="border-2 border-indigo-200 p-1 rounded mb-3 w-11/12"
-          >
-        </p>
-        <p>
-          <label for="comment" class="sr-only">Your comment</label>
-          <textarea
-            name="comment"
-            id="comment"
-            class="border-2 border-indigo-200 rounded form-textarea mt-1 block w-11/12 mb-3 pl-1"
-            rows="3"
-            placeholder="Your comments"
-            ></textarea>
-        </p>
-        <p>
-          <button type="submit"class="bg-indigo-700 hover:bg-indigo-600 rounded p-2 block text-white w-100" >Post your comment</button>
-        </p>
-      </form>  
-  </section>  
+    {% endeach %}
+  </section>
+{% endif %}
+    
+<section class="mt-10 max-w-screen-md mx-auto">
+  <h4 class="text-2xl font-bold mb-2 mt-6">Make a comment</h4>
+  <p class="text-gray-900 text-base mb-2">Feel free to add details about this persons life. The data on this website is always growing  📈</p>
+    <form netlify name="comments-queue" action="/thanks">
+      <input name="path" type="hidden" value{{members.name}}>
+      <p>
+        <label for="name" class="sr-only">Your name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="border-2 border-indigo-200 p-1 rounded mb-3 w-11/12"
+          placeholder="Your name"  
+        >
+      </p>
+      <p>
+        <label for="email" class="sr-only">Your email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your email"
+          class="border-2 border-indigo-200 p-1 rounded mb-3 w-11/12"
+        >
+      </p>
+      <p>
+        <label for="comment" class="sr-only">Your comment</label>
+        <textarea
+          name="comment"
+          id="comment"
+          class="border-2 border-indigo-200 rounded form-textarea mt-1 block w-11/12 mb-3 pl-1"
+          rows="3"
+          placeholder="Your comments"
+          ></textarea>
+      </p>
+      <p>
+        <button type="submit"class="bg-indigo-700 hover:bg-indigo-600 rounded p-2 block text-white w-100" >Post your comment</button>
+      </p>
+    </form>  
+</section>  
