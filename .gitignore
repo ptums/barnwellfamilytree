@@ -3,3 +3,5 @@ dist
 .env
 .history
 .vscode
+# Local Netlify folder
+.netlify
