@@ -31176,6 +31176,14 @@ a:hover {
           animation: bounce 1s infinite;
 }
 
+h4 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

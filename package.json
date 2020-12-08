@@ -24,5 +24,8 @@
     "postcss": "^8.1.14",
     "postcss-cli": "^8.3.0",
     "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "eleventy-plugin-lazyimages": "^2.1.0"
   }
 }

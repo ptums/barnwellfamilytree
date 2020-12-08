@@ -20,17 +20,17 @@
         "comments": [
             {
                 "name": "Mary Jo Hales",
-                "email": "",
+                "email": "mjhales@anderson.edu",
                 "comment": "Died in Anderson Indiana. Buried in only Catholic cemetery in Anderson Indiana"
             },
             {
                 "name": "Mary Jo Hales",
-                "email": "",
+                "email": "mjhales@anderson.edu",
                 "comment": "Children Jean Marie, John Joseph, William Joseph, Albert Joseph JR, Mary Jo"
             },
             {
                 "name": "Mary Jo Hales",
-                "email": "",
+                "email": "mjhales@anderson.edu",
                 "comment": "Work Bookkeeper for a furniture company in Geneva, New York."
             }
         ],
@@ -66,6 +66,178 @@
             {
                 "url": "/v1607429745/barnwellfamilytree/sally-barnwell/SallyEBarnwell_hkaxfa.jpg",
                 "alt": "John Barnwell WWII"
+            }
+        ]
+    },
+    {
+        "name": "Thomas Francis Barnwell",
+        "slug": "thomas-f-barnwell",
+        "life": "March 22, 1922 - August 2, 1996",
+        "profileImage": "/v1607434308/barnwellfamilytree/tom-barnwell/tombarnwell_xkwshh.jpg",
+        "born": "March 22, 1922 in Highland Park, Middlesex County, New Jersey",
+        "death": "August 2, 1996 in Sheridan, Montcalm, Michigan",
+        "family": [
+            "Wife: Kathleen Ann Dey (Married: 1947, 25 years old)",
+            "Children: Kathy Barnwell, Patricia Barnwell, William Barnwell, Thomas Barnwell Jr., Edward Barnwell"
+        ],
+        "workHistory": [
+            "Army WWII",
+            "Police Chief"
+        ],
+        "education": [
+            "St. Peter's High School"
+        ],
+        "category": "children",
+        "comments": [],
+        "galleryPhotos": [
+            {
+                "url": "/v1607434308/barnwellfamilytree/tom-barnwell/tombarnwell_xkwshh.jpg",
+                "alt": "Tom Barnwell family photo"
+            },
+            {
+                "url": "/upload/v1607434513/barnwellfamilytree/tom-barnwell/tombarnwellwhitetshirt_psdnwz.jpg",
+                "alt": "Tom Barnwell white t-shirt"
+            },
+            {
+                "url": "/v1607434496/barnwellfamilytree/tom-barnwell/tombarnwellofficerphoto2_r63f41.jpg",
+                "alt": "Tom Barnwell officer photo 2"
+            },
+            {
+                "url": "/v1607434493/barnwellfamilytree/tom-barnwell/tombarnwellofficerphoto3_ilnsiq.jpg",
+                "alt": "Tom Barnwell officer photo 3"
+            },
+            {
+                "url": "/v1607434590/barnwellfamilytree/tom-barnwell/tombarnwellyoungofficer_hnltkr.jpg",
+                "alt": "Tom Barnwell young officer photo"
+            }
+        ]
+    },
+    {
+        "name": "Mary Jean Barnwell",
+        "slug": "mary-j-barnwell",
+        "life": "July 23, 1925 - July 15, 1994",
+        "profileImage": "/v1607434759/barnwellfamilytree/mary-barnwell/marybarnwellweddingphoto_u06jm8.jpg",
+        "born": "July 23, 1925 in Highland Park, Middlesex County, New Jersey",
+        "death": "July 15, 1994 in Winslow Township, Camden, New Jersey",
+        "family": [
+            "Husband: Henry F. Boisvert (Married: 1949, Age: 24)",
+            "Children: Margaret Boisvert, Mary Lou Boisvert, Jim Boisvert, Robert Boisvert"
+        ],
+        "workHistory": [
+            "Nursing Corp WWII"
+        ],
+        "education": [
+            "St. Peter's High School",
+            "Rutgers University"
+        ],
+        "category": "children",
+        "comments": [],
+        "galleryPhotos": [
+            {
+                "url": "/v1607434759/barnwellfamilytree/mary-barnwell/marybarnwellweddingphoto_u06jm8.jpg",
+                "alt": "Mary Barnwell photo"
+            }
+        ]
+    },
+    {
+        "name": "Ann Mary Barnwell",
+        "slug": "ann-m-barnwell",
+        "life": "August 29, 1929 - April 12, 2013",
+        "profileImage": "/barnwellfamilytree/ann-barnwell/AnnBarnwellyoung_wr4pfc.jpg",
+        "born": "August 29, 1929 in Highland Park, Middlesex County, New Jersey",
+        "death": "April 12, 2013 in Highland Park, Middlesex County, New Jersey",
+        "family": [
+            "Husband: Frank H. Cipot, Sr. (Married: 1947, Age: 18)",
+            "Children: Ann Cipot, Edwin Cipot, Peter Cipot, Jack Cipot, Joseph Cipot, Janet Cipot, Frank Cipot"
+        ],
+        "workHistory": [
+            "Not sure"
+        ],
+        "education": [
+            "St. Peter's High School",
+            "Rutgers University"
+        ],
+        "category": "children",
+        "comments": [],
+        "galleryPhotos": [
+            {
+                "url": "/v1607435117/barnwellfamilytree/ann-barnwell/AnnaBarnwellFrankCipotWedding_cft7oq.jpg",
+                "alt": "Ann Barnwell & Frank Cipot Wedding"
+            },
+            {
+                "url": "/barnwellfamilytree/ann-barnwell/AnnBarnwellyoung_wr4pfc.jpg",
+                "alt": "Ann Barnwell"
+            }
+        ]
+    },
+    {
+        "name": "Helen Regina Barnwell",
+        "slug": "helen-r-barnwell",
+        "life": "August 15, 1932 - December 6, 2018",
+        "profileImage": "/v1607435535/barnwellfamilytree/helen-barnwell/HelenBarnwellWeddingPhoto1_kiuypk.jpg",
+        "born": "August 15, 1932 in Highland Park, Middlesex County, New Jersey",
+        "death": "December 6, 2018 in South Brunswick, Middlesex County, New Jersey",
+        "family": [
+            "Husband: Peter (Frank) F. Tumulty (Married: 1955, Age: 23)",
+            "Children: Mary-beth Tumulty, Carol Tumulty, Peter F. Tumulty Jr."
+        ],
+        "workHistory": [
+            "Owner, Tumulty's Pub",
+            "Teachers Aid, St. Augustines School"
+        ],
+        "education": [
+            "St. Peter's High School"
+        ],
+        "category": "children",
+        "comments": [],
+        "galleryPhotos": [
+            {
+                "url": "/v1607435535/barnwellfamilytree/helen-barnwell/HelenBarnwellWeddingPhoto1_kiuypk.jpg",
+                "alt": "Helen Barnwell Wedding Photo"
+            },
+            {
+                "url": "/v1607435541/barnwellfamilytree/helen-barnwell/HelenBarnwell_xwzehd.jpg",
+                "alt": "Helen Barnwell"
+            },
+            {
+                "url": "/v1607435537/barnwellfamilytree/helen-barnwell/HelenBarnwellWeddingPhotoNewsPaper_vugjcl.jpg",
+                "alt": "Helen Barnwell & Frank Tumulty Wedding Newspaper"
+            },
+            {
+                "url": "/v1607435530/barnwellfamilytree/helen-barnwell/HelenBarnwell_FrankTumulty_sbzouw.jpg",
+                "alt": "Helen Barnwell & Frank Tumulty"
+            },
+            {
+                "url": "/v1607435526/barnwellfamilytree/helen-barnwell/HelenBarnwellStPetersHighSchool_yklhz2.jpg",
+                "alt": "Helen Barnwell High School"
+            }
+        ]
+    },
+    {
+        "name": "Edwin Herbert Barnwell",
+        "slug": "edwin-h-barnwell",
+        "life": "October 3, 1937 - Still kickin it",
+        "profileImage": "/v1607435766/barnwellfamilytree/edwin-barnwell/EddyBarnwell_lcezcr.jpg",
+        "born": "October 3, 1937 in Highland Park, Middlesex County, New Jersey",
+        "death": "",
+        "family": [
+            "Husband: Barbara Davis",
+            "Children: Michael Barnwell, Betsy Barnwell, Eddy Barnwell Jr."
+        ],
+        "workHistory": [
+            "Tyson Chicken",
+            "BEM Sales"
+        ],
+        "education": [
+            "St. Peter's High School",
+            "Monmouth County University"
+        ],
+        "category": "children",
+        "comments": [],
+        "galleryPhotos": [
+            {
+                "url": "/v1607435766/barnwellfamilytree/edwin-barnwell/EddyBarnwell_lcezcr.jpg",
+                "alt": "Eddy Barnwell"
             }
         ]
     }
