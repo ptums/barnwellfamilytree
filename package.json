@@ -7,11 +7,12 @@
   "license": "MIT",
   "scripts": {
     "build": "npm-run-all build:css build:html",
-    "build:css": "postcss src/css/tailwind.css -o src/css/styles.css",
+    "build:css": "postcss src/assets/css/tailwind.css -o src/assets/css/styles.css",
     "build:html": "eleventy",
     "watch": "npm-run-all --parallel watch:css watch:html",
-    "watch:css": "postcss src/css/tailwind.css -o src/css/styles.css --watch",
-    "watch:html": "eleventy --serve"
+    "watch:css": "postcss src/assets/css/tailwind.css -o src/assets/css/styles.css --watch",
+    "watch:html": "eleventy --serve",
+    "start": "npm run watch"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
