@@ -15,7 +15,7 @@ description: The family line of John Joseph Barnwell & Anna Regina Herbert
     <div class="flex flex-col md:flex-row justify-center my-5">
     {% asyncEach m in members %}
       {% if m.category === "children" %}
-        <a href="/{{ m.slug }}/bio.html" class="mr-3 mb-3 md:mb-0 shadow-md bg-green-500 hover:bg-green-400 py-8 px-3 leading-4 rounded text-white text-base font-bold">
+        <a href="/{{ m.slug }}/bio.html" class="mr-3 mb-3 md:mb-0 shadow-md bg-green-500 hover:bg-green-400 p-3 px-3 leading-4 rounded text-white text-base font-bold">
           {{ m.name }}
         </a>
       {% endif %}
@@ -58,7 +58,7 @@ description: The family line of John Joseph Barnwell & Anna Regina Herbert
       <div class="flex flex-col md:flex-row justify-center my-5">
       {% asyncEach m in members %}
         {% if m.category === "great-grand-parents" %}
-          <a href="/{{ m.slug }}/bio.html" class="mr-3 mb-3 md:mb-0 shadow-md bg-red-500 hover:bg-red-400 py-8 px-3 leading-4 rounded text-white text-sm font-bold">
+          <a href="/{{ m.slug }}/bio.html" class="mr-3 mb-3 md:mb-0 shadow-md bg-red-500 hover:bg-red-400 p-3 leading-4 rounded text-white text-sm font-bold">
             {{ m.name }}
           </a>
         {% endif %}
@@ -68,10 +68,10 @@ description: The family line of John Joseph Barnwell & Anna Regina Herbert
     <!-- End great grandparents -->
     <!-- Start greatgreat-grandparents-->
         <div class="border-b-2 border-blue-400 mt-6 mb-12">
-      <h4>Great Grand Parents</h4>
+      <h4>2nd Great Grand Parents</h4>
       <div class="flex flex-col md:flex-row justify-center my-5">
       {% asyncEach m in members %}
-        {% if m.category === "great-grand-parents" %}
+        {% if m.category === "great-great-parents" %}
           <a href="/{{ m.slug }}/bio.html" class="mr-3 mb-3 md:mb-0 shadow-md bg-purple-600 hover:bg-purple-500 p-3 rounded text-white text-sm font-bold">
             {{ m.name }}
           </a>
