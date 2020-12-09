@@ -3,8 +3,5 @@ module.exports = {
       extend: {}
     },
     variants: {},
-    plugins: [],
-    purge: [
-      './src/_includes/base.njk'
-    ]
+    plugins: []
   }
