@@ -10,8 +10,8 @@ description: The family line of John Joseph Barnwell & Anna Regina Herbert
 
 <div class="content text-center max-w-screen-lg mx-auto">
   <!-- Start Children-->
-  <div class="border-b-2 border-blue-400 py-6">
-    <h4>Children</h4>
+  <div class="border-b-2 border-blue-400 pb-6">
+    <h3>Children</h3>
     <div class="flex flex-col md:flex-row justify-center my-5">
     {% asyncEach m in members %}
       {% if m.category === "children" %}
@@ -25,7 +25,7 @@ description: The family line of John Joseph Barnwell & Anna Regina Herbert
   <!-- End Children -->
   <!-- Start Parents  -->
   <div class="border-b-2 border-blue-400 py-6">
-    <h4>Parents</h4>
+    <h3>Parents</h3>
     <div class="flex flex-col md:flex-row justify-center my-5">
     {% asyncEach m in members %}
       {% if m.category === "parents" %}
@@ -40,7 +40,7 @@ description: The family line of John Joseph Barnwell & Anna Regina Herbert
   <!-- End Parents-->
   <!-- Start Grandparents  -->
   <div class="border-b-2 border-blue-400 py-6">
-    <h4>Grand Parents</h4>
+    <h3>Grand Parents</h3>
     <div class="flex flex-col md:flex-row justify-center my-5">
     {% asyncEach m in members %}
       {% if m.category === "grand-parents" %}
@@ -54,7 +54,7 @@ description: The family line of John Joseph Barnwell & Anna Regina Herbert
   <!-- End of grandparents -->
   <!-- Start great grandparents -->
     <div class="border-b-2 border-blue-400 py-6">
-      <h4>Great Grand Parents</h4>
+      <h3>Great Grand Parents</h3>
       <div class="flex flex-col md:flex-row justify-center my-5">
       {% asyncEach m in members %}
         {% if m.category === "great-grand-parents" %}
@@ -68,7 +68,7 @@ description: The family line of John Joseph Barnwell & Anna Regina Herbert
     <!-- End great grandparents -->
     <!-- Start greatgreat-grandparents-->
         <div class="border-b-2 border-blue-400 py-6 mb-8">
-      <h4>2nd Great Grand Parents</h4>
+      <h3>2nd Great Grand Parents</h3>
       <div class="flex flex-col md:flex-row justify-center my-5">
       {% asyncEach m in members %}
         {% if m.category === "great-great-parents" %}

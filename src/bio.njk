@@ -13,7 +13,7 @@ eleventyComputed:
 
 <article>
   <header>
-    <h1 class="text-center font-bold text-3xl">{{ members.name }}</h1>
+    <h3 class="text-center font-bold text-3xl">{{ members.name }}</h3>
     <div class="text-center text-sm mb-8">
       {{ members.life }}
     </div>
@@ -61,7 +61,7 @@ eleventyComputed:
   <section class="mt-10 max-w-screen-md mx-auto">
     <h4>Comments</h4>
     {% asyncEach comment in members.comments %}
-        <div class="border-2 border-indigo-200 p-3 w-11/12 py-5 mb-5 rounded shadow-md">
+        <div class="border-2 border-indigo-200 bg-white p-3 w-11/12 py-5 mb-5 rounded shadow-md">
           <p class="font-bold leading-relaxed">{{comment.name}}</p>
           <p class="text-base">{{comment.comment}}</p>
         </div> 
@@ -71,7 +71,7 @@ eleventyComputed:
     
 <section class="mt-10 max-w-screen-md mx-auto">
   <h4>Make a comment</h4>
-  <p class="text-gray-900 text-base mb-2">Feel free to add details about this persons life. The data on this website is always growing  📈</p>
+  <p class="text-gray-900 text-base mb-4">Feel free to add details about this persons life. The data on this website is always growing  <span class="text-3xl">📊</span></p>
     <form netlify name="comments-queue" action="/thanks">
       <input name="path" type="hidden" value{{members.name}}>
       <p>
@@ -80,7 +80,7 @@ eleventyComputed:
           type="text"
           name="name"
           id="name"
-          class="border-2 border-indigo-200 p-1 rounded mb-3 w-11/12"
+          class="border-2 border-indigo-400 bg-white p-1 rounded mb-3 w-11/12"
           placeholder="Your name"  
         >
       </p>
@@ -91,7 +91,7 @@ eleventyComputed:
           name="email"
           id="email"
           placeholder="Your email"
-          class="border-2 border-indigo-200 p-1 rounded mb-3 w-11/12"
+          class="border-2 border-indigo-400 bg-white p-1 rounded mb-3 w-11/12"
         >
       </p>
       <p>
@@ -99,7 +99,7 @@ eleventyComputed:
         <textarea
           name="comment"
           id="comment"
-          class="border-2 border-indigo-200 rounded form-textarea mt-1 block w-11/12 mb-3 pl-1"
+          class="border-2 border-indigo-400 bg-white rounded form-textarea mt-1 block w-11/12 mb-3 pl-1"
           rows="3"
           placeholder="Your comments"
           ></textarea>
