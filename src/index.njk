@@ -2,7 +2,7 @@
 layout: base.njk
 pagination:
   data: members
-  size: 21
+  size: 27
   alias: members
 title: Barnwell Family Tree
 description: The family line of John Joseph Barnwell & Anna Regina Herbert
@@ -66,7 +66,19 @@ description: The family line of John Joseph Barnwell & Anna Regina Herbert
       </div>
     </div>   
     <!-- End great grandparents -->
-    <!-- Start greatgreat-grandparents mr-3 mb-3 md:mb-0 shadow-md bg-purple-600 hover:bg-purple-500 p-3 rounded text-white text-sm font-bold-->
+    <!-- Start greatgreat-grandparents-->
+        <div class="border-b-2 border-blue-400 mt-6 mb-12">
+      <h4>Great Grand Parents</h4>
+      <div class="flex flex-col md:flex-row justify-center my-5">
+      {% asyncEach m in members %}
+        {% if m.category === "great-grand-parents" %}
+          <a href="/{{ m.slug }}/bio.html" class="mr-3 mb-3 md:mb-0 shadow-md bg-purple-600 hover:bg-purple-500 p-3 rounded text-white text-sm font-bold">
+            {{ m.name }}
+          </a>
+        {% endif %}
+      {% endeach %}
+      </div>
+    </div>  
   
     <!-- End greatgreat-grandparents -->
     <p class="text-base text-left">I have a few leads on the Barnwell/Herbert line going back to 3rd/4th grandparents, but nothing substantial. I know that Maria Law's family is from England and came to the Philadelphia, PA in the mid 18th century, just before the signing of the Declaration of Independence. As for the Barnwells, I have nothing passed (Old) Richard Barnwell. Margaret Wilkson's parents were named Patrick Wilkinson & Margaret Geharty, both were from County Meath Ireland.</p>

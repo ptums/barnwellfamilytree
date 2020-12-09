@@ -1,17 +1,20 @@
 {
-	"name": "",
-  "slug": "",
-	"life": "",
+	"name": "Francis (Francois) DuRande",
+  "slug": "francis-durande",
+	"life": "March 30, 1795 - December 2, 1872",
 	"profileImage": "",
-	"born": "",
-	"death": "",
+	"born": "April 3, 1790 in Philadelphia, Pennsylvania",
+	"death": "July 28, 1853 in Mount Holly, Burlington County, New Jersey",
 	"family": [    
-		"Husband: ",
-		"Children: "
+		"Husband: Francis (Francois) DuRande (Marriage: December 17, 1814, Age: 24)",
+		"Children: Ellen R. DuRande (1830-1923), Edward DuRande"
 	],
 	"workHistory": ["None"],
 	"education": ["None"],
-	"category": "great-parents",
+	"category": "great-great-parents",
 	"comments": [],
-	"galleryPhotos": []
+	"galleryPhotos": [{
+		"url": "/v1607484640/barnwellfamilytree/maria-law/maria-law-grave_egjiip.jpg",
+		"alt": "Maria Law grave"
+	}]
 }
