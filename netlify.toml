@@ -2,9 +2,3 @@
   command = 'yarn build'
   publish = 'dist'
   functions = 'src/_functions'
-
-[context.production]
-  environment = { NODE_ENV = "production" }
-
-[dev]
-  NODE_ENV = "development"
