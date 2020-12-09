@@ -12,17 +12,17 @@ eleventyComputed:
 ---
 <article>
   <header>
-    <h1 class="text-center font-bold text-3xl">{{ members.name }}</h1>
+    <h3 class="text-center font-bold text-3xl">{{ members.name }}</h3>
     <div class="text-center text-sm mb-8">
       {{ members.life }}
     </div>
   </header>
   <div class="max-w-screen-lg mx-auto">
     <a href="/{{members.slug}}/bio.html">Go back to profile</a>
-    <h3 class="text-1xl my-4">
+    <p class="text-base>
       <strong>Want to add a photo?</strong>    
       Email it to <u>tumultywebservices@gmail.com</u>
-    </h3>
+    </p>
     <div class="my-8">
      {% if  members.galleryPhotos.length > 0 %}
         <ul class="flex flex-wrap">
