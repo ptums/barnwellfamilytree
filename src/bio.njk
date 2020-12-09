@@ -20,7 +20,9 @@ eleventyComputed:
   </header>
   <div class="mt-10 max-w-screen-md mx-auto">
     <div>
+    {% if members.profileImage %}
       <img src="https://res.cloudinary.com/tumulty-web-services/image/upload/{{members.profileImage}}" alt="{{members.name}}" />
+    {% endif %}
     </div>
     <h4>Born</h4>
     <p>{{ members.born }}</p>
