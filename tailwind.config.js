@@ -5,6 +5,6 @@ module.exports = {
     variants: {},
     plugins: [],
     purge: [
-      './src/site/**/*.njk'
+      './src/_includes/base.njk'
     ]
   }
