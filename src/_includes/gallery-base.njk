@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+     <link rel="stylesheet" href="/assets/css/styles.css">
+     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+     <link rel="icon" type="image/png" href="/assets/images/favicon-16x16.png" />
+     <link rel="icon" type="image/gif" href="/assets/images/favicon-16x16.png" />	
+     <title>{{ title }}</title>
+     <meta name="description" content="{{ description }}" />
+  </head>
+  <body class="antialiased w-full">
+    <div class="mx-6">
+      <div class="border-b border-blue-500">
+        <div class="py-5 flex flex-col">
+          <div class="text-center">            
+            <a href="/">
+              <h1 class="font-bold text-4xl">
+                Barnwell Family Tree
+              </h1>
+            </a>
+            <h2 class="text-base">
+                The family line of John Joseph Barnwell & Anna Regina Herbert
+            </h2>            
+          </div>          
+        </div>   
+      </div>
+      <div class="text-xl py-5">
+        {{ content | safe }}
+      </div>      
+    </div>
+    <footer class="text-center mt-14 border-t-2 border-gray-200 py-3">
+      <p class="text-base">
+        Designed, developed, and manged by <a href="https://tumultywebservices.dev" class="font-bold text-green-700">Tumulty Web Services</a>
+      </p>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $(".fancybox").fancybox({
+                openEffect  : 'elastic',
+                closeEffect : 'elastic'
+            });
+        });
+    </script>  
+  </body>
+</html>

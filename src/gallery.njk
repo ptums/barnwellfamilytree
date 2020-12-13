@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: gallery-base.njk
 pagination:
   data: members
   size: 1
@@ -23,12 +23,23 @@ eleventyComputed:
       <strong>Want to add a photo?</strong>    
       Email it to <u>tumultywebservices@gmail.com</u>
     </p>
+      <p class="text-base">
+      <strong>Is the picture too small?</strong>    
+      click on the image to make it bigger</u>
+    </p>
     <div class="my-8">
      {% if  members.galleryPhotos.length > 0 %}
         <ul class="flex flex-wrap">
         {% asyncEach m in members.galleryPhotos %}
             <li class="my-2 flex-auto">
-              <img src="https://res.cloudinary.com/tumulty-web-services/image/upload/{{ m.url }}" alt="{{ m.alt }}" width="300" />
+              <a
+                href="https://res.cloudinary.com/tumulty-web-services/image/upload{{ m.url }}"
+                id="single_image"
+                rel="lightbox"
+                class="fancybox"
+              >
+                <img src="https://res.cloudinary.com/tumulty-web-services/image/upload{{ m.url }}" alt="{{ m.alt }}" width="300" />
+              </a>
             </li>
         {% endeach %}
         </ul>
