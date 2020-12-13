@@ -73,7 +73,7 @@ eleventyComputed:
   <h4>Make a comment</h4>
   <p class="text-gray-900 text-base mb-4">Feel free to add details about this persons life. The data on this website is always growing  <span class="text-3xl">📊</span></p>
     <form netlify name="comments-queue" action="/thanks">
-      <input name="path" type="hidden" value={{members.name}}>
+      <input name="person" type="hidden" value="{{members.name}}">
       <p>
         <label for="name" class="sr-only">Your name</label>
         <input
